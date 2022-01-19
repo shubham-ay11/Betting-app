@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Spline+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#headerMainDiv{
+    width: 100%;
+    height: 38vh;
+    
+    background-color: #f0a103;
+}
+.headerTopDiv{
+    display: flex;
+    flex-direction: row;
+    
+    background-color:  #f0a103;
+    font-weight: 600;
+
+}
+#headerTopSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#logo{
+
+    font-family: 'Island Moments', cursive;
+    font-size: 4rem;
+    margin-left: 5%;
+    
+}
+
+
+
+.topNavItem1{
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-top: 5.5%;
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 600;
+
+}
+
+#headerInput{
+    width: 20%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+#userAccoutDropDowm{
+    margin-top: 5.5%;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #1f1f1f;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#depositBtn{
+    width: 7.5%;
+height: 15%;
+margin-top: 5%;
+margin-left: 8%;
+background-color: #ffffff;
+outline: #113CFC;
+transition: 0.3ms;
+border: 1px solid #113CFC;
+border-radius: 10%;
+cursor: pointer;
+}
+#depositBtn:hover{
+background-color: #f8e3b7;
+}
+
+#headerSecoundDiv{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30%;
+    border: 1px solid #1f1f1f;
+    margin-left: 23%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 1%;
+    background-color: #543400;
+    
+}
+
+#headerThirdDiv{
+    width: 50%;
+    height: 30%;
+    border: 1px solid #1f1f1f;
+    margin-left: 23%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 0.%;
+    background-color: #543400;
+}
+
+#SecoundDivItem{
+    display: flex;
+    flex-direction: row;
+   justify-content: left;
+   margin-left: 5%;
+   color: #f3b539;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+#SecoundDivItem2{
+    display: flex;
+    flex-direction: row;
+   justify-content: left;
+   margin-left: 5%;
+   color: #f3b539;
+    font-family: 'Montserrat', sans-serif;
+}
+.exchanges{
+    margin-left: 0%;
+    margin-top: 12%;
+    
+
+}
+
+.sportsBook{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.exchanges2{
+    margin-left: 0%;
+    margin-top: 5%;
+    
+
+}
+
+.sportsBook2{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#settingDropdown{
+  margin-left: 35%;
+  margin-top: 5%;
+  font-weight: 600;
+  color: #000000;
+
+
+
+}
