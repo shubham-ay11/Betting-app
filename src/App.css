@@ -1,12 +1,34 @@
 .App {
   text-align: center;
 }
-
+.app{
+  display: flex;
+  overflow: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.navbar{
+  flex: 0.2;
+  
+}
+.main{
+  flex: 0.7;
+    width: 100%;
+}
+
+.sideNavMain{
+ 
+display: flex;
+flex-direction: row;
+
+}
+#mainBodyApp{
+  display: flex;
+  flex-direction: row;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

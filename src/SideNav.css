@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+#sideNavTop{
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y:hidden;
+  
+}
+#sideNavFirstDiv{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid #f0a103;
+    width:80%;
+    height:30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    
+
+}
+#sideNavFirstDiv > p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;
+    font-weight: 600;
+}
+#marketDropDown{
+    margin-left: 18%;
+    margin-top: 8%;
+}
