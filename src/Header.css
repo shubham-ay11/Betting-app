@@ -85,24 +85,26 @@ background-color: #f8e3b7;
     flex-direction: row;
     width: 50%;
     height: 30%;
-    border: 1px solid #1f1f1f;
+    border: 1px solid #f0a103;
     margin-left: 33%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     margin-top: 1%;
-    background-color: #543400;
+    background-color: #fff;
+    color: #000000;
     
 }
 
 #headerThirdDiv{
     width: 50%;
     height: 33%;
-    border: 1px solid #1f1f1f;
+    border: 1px solid #f0a103;
     margin-left: 33%;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-top: 0.%;
-    background-color: #543400;
+    background-color: #fff;
+    color: #000000;
 }
 
 #SecoundDivItem{
@@ -110,8 +112,9 @@ background-color: #f8e3b7;
     flex-direction: row;
    justify-content: left;
    margin-left: 5%;
-   color: #f3b539;
+   color: #000000;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
    
 }
 #SecoundDivItem2{
@@ -119,8 +122,9 @@ background-color: #f8e3b7;
     flex-direction: row;
    justify-content: left;
    margin-left: 5%;
-   color: #f3b539;
+   color: #000000;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
 }
 .exchanges{
     margin-left: 0%;

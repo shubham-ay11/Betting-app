@@ -11,9 +11,7 @@ border-left: none;
 border-right: none;
 }
 
-body{
-    
-}
+
 
 #cricketTopDiv{
     height: 8vh;
@@ -256,10 +254,7 @@ font-weight: 600;
     
   }
 
-  #customers > tr > td{
-    
-     
-  }
+  
   
   #customers tr:nth-child(even){background-color: #f2f2f2;}
   
@@ -302,20 +297,28 @@ font-weight: 600;
    */
   #matchTableOneData1{
    
-   display: inline-block;  
-     width: 35%;
+    display: inline-flex; ;  
+     width: 40%;
       margin-left: 10%;
       border-radius: 5%;
+      text-align: center;
+      font-size: 0.78rem;
       
       background-color: #EA99D5;
   }
+  #matchTableOneData1 > p{
+    margin-left: 8%;
+  }
+  
   #matchTableOneData2{
    
-    display: inline-block;  
-      width: 35%;
+    display: inline-flex;  
+      width: 40%;
+      font-size: 0.78rem;
        margin-left: 10%;
        border-radius: 5%;
-      
+       
+       text-align: center;
        background-color: #93FFD8;
    }
   

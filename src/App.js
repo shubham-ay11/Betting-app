@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./Header";
 import MainBody from "./MainBody";
 import SideNav from "./SideNav.js";
+import ScoreBoard from "./Score";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </div>
            <div className="main">
 <MainBody />
+{/* <ScoreBoard /> */}
 </div>
 </div>
 </div>

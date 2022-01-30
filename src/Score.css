@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Spline+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+#scoreBoardTopDiv{
+height: 20vh;
+width: 68%;
+border: 1px solid #000000;
+margin-top: 20%;
+margin-left: 18%;
+border-left: none;
+border-right: none;
+background-color: #191A19;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+padding-left: 3%;
+padding-right: 3%;
+}
+
+#team > p{
+    font-weight: 800;
+    font-size: 1.4rem;
+    background: -webkit-linear-gradient(#eee, rgb(102, 100, 100));
+    -webkit-background-clip: text;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-fill-color: transparent; 
+}
+
+#teamScore{
+    display: flex;
+   flex-direction: column;
+    margin-left: 25%;
+}
+
+#teamScore > p{
+   
+    font-weight: 800;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(#eee, rgb(102, 100, 100));
+    -webkit-background-clip: text;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-fill-color: transparent;
+}
+
+#scoreSecondDiv{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 74%;
+    margin-left: 18%;
+    border: 1px solid #fff;
+    border-top: none;
+
+}
+#scoreSecondDiv > p{
+font-family: 'Montserrat', sans-serif;
+margin-left: 15%;
+margin-top: 8%;
+}
+#liability{
+    height: 27%;
+    width: 50%;
+    background-color: #f0a103;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: center;
+    padding-bottom: 3%;
+   border-radius: 2px;
+}
+#liability:hover{
+    background-color: #f5cb77;
+}
+
+#liability > p{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+   
+}
+
+#backAllBtn{
+font-size: 0.7rem;
+    width:70%;
+    height:5vh;
+    cursor: pointer;
+    border: none;
+    background-color: #9AD0EC;
+    
+}
+#backAllBtn2{
+    font-size: 0.7rem;
+    width:70%;
+    height:5vh;
+    cursor: pointer;
+    border: none;
+    background-color: #f795ce;
+}
+#matchBackTable{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: scroll;
+    overflow-y: scroll;
+     width: 82%;
+     margin-left:18%;
+     margin-bottom: 0%;
+     
+}
+#matchBackTable {
+ font-size: 0.8rem;
+     
+    
+}
+#matchBackTable td, #matchBackTable th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    
+  }
+
+  #matchBackTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #matchBackTable tr:hover {background-color: #ddd;}
+  
+  #matchBackTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+   }
+
+
+#matchBackTableTop > th{
+    
+    height: 20px;
+    border: none;
+   
+}
+#matchBackTable {
+    border-left: none;
+    border-right: none;
+    height: 20px;
+    border: none;
+}
+
+
+#backCol{
+    background-color: #9AD0EC;
+    text-align: center;
+    cursor: pointer;
+}
+#layCol{
+    text-align: center;
+    background-color: #f795ce;
+    cursor: pointer;
+}
+.layColText{
+    text-align: center;
+    cursor: pointer;
+}
+#scoreLackTable{
+    margin-bottom: 10%;
+}
+
+#manageBet{
+    width: 82%;
+    height: 6rem;
+    margin-left: 18%;
+    margin-bottom: 10%;
+    background-color: #d7f0fc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin-top: -10%;
+}
+
+#betSeriesName{
+    padding-top: 0.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.90rem;
+
+    font-weight: 600;
+    color: #000000;
+
+
+}
+#betSection{
+    margin-top: -3%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 43%;
+    
+}
+#betSection > button{
+    height: 10%;
+    margin-top: 3.8%;
+    background-color: #f0a103;
+    border: 1px solid #f0a103;
+    cursor: pointer;
+}
+
+#betSection > p{
+
+margin: 3% 3%;
+}
+
+#placeBetBtn{
+
+    background-color: #f0a103;
+    border: none;
+    width: 18%;
+    height: 30%;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+#placeBetBtn:hover{
+    background-color: #ffb625;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
