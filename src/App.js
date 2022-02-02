@@ -15,8 +15,8 @@ function App() {
 <SideNav />
           </div>
            <div className="main">
-<MainBody />
-{/* <ScoreBoard /> */}
+{/* <MainBody /> */}
+<ScoreBoard />
 </div>
 </div>
 </div>
